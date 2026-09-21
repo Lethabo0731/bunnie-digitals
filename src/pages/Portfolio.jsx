@@ -2,6 +2,16 @@ import { FiArrowUpRight, FiExternalLink } from "react-icons/fi";
 
 const projects = [
   {
+    name: "Medicare Hospital",
+    category: "Healthcare",
+    description:
+      "A modern hospital website concept designed around trust, accessibility and clear information for patients, services and medical departments.",
+    technologies: "React • Vite • CSS",
+    link: "https://medicare-hospital-mauve.vercel.app/",
+    image:
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
     name: "Lexora Attorneys",
     category: "Professional Services",
     description:
@@ -79,7 +89,7 @@ function Portfolio() {
             <span className="portfolio-hero-meta-divider"></span>
 
             <div className="portfolio-hero-meta-item">
-              <strong>06+</strong>
+              <strong>07+</strong>
               <span>Industries</span>
             </div>
 
